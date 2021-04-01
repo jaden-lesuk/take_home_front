@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Component Snapshot Test testing app 1`] = `
+<div
+  style={
+    Object {
+      "background": "linear-gradient(to bottom, #3a1c71, #d76d77, #ffaf7b)",
+      "minHeight": "100vh",
+      "paddingLeft": "15vw",
+      "paddingRight": "15vw",
+      "paddingTop": "10vh",
+    }
+  }
+>
+  <div
+    className="container-fluid"
+    style={
+      Object {
+        "color": "white",
+        "marginBottom": "5vh",
+        "textAlign": "center",
+      }
+    }
+  >
+    <h1>
+      How's the weather in?
+    </h1>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="mb-3"
+      >
+        <input
+          className="form-control"
+          name="city"
+          onChange={[Function]}
+          placeholder="City ..."
+          required={true}
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        className="btn btn-primary btn-block btn-md"
+        disabled={false}
+        type="submit"
+      >
+        Let's see...
+      </button>
+    </form>
+  </div>
+  <div
+    className="text-center"
+  >
+    <div
+      className="spinner-grow text-light"
+    />
+  </div>
+</div>
+`;

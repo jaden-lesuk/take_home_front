@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Result Component Snapshot Test testing result 1`] = `
+<div
+  style={
+    Object {
+      "color": "white",
+      "textAlign": "center",
+    }
+  }
+>
+  <h2>
+    Hmmm, the condition seems to be:  
+  </h2>
+</div>
+`;
